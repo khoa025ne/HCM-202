@@ -310,15 +310,15 @@ function checkAnswer(btn, questionId, correct) {
 
   // Feedback message
   const explanations = {
-    q1:  'Đúng! Ba lực lượng: giai cấp vô sản quốc tế, phong trào giải phóng dân tộc, và lực lượng yêu chuộng hòa bình. [Trang 184]',
-    q2:  'Đúng! "Thực lực" là nội lực, là nền tảng. Ngoại giao chỉ có hiệu quả khi dựa trên nội lực mạnh. [Trang 188]',
-    q3:  'Đúng! Tư tưởng này xuất hiện từ 1920 (Đại hội Tours) và nhất quán đến cuối đời Bác — đây là chiến lược, không phải sách lược. [Trang 185]',
+    q1:  'Đúng! Ba lực lượng: giai cấp vô sản quốc tế, phong trào giải phóng dân tộc, và lực lượng yêu chuộng hòa bình.',
+    q2:  'Đúng! "Thực lực" là nội lực, là nền tảng. Ngoại giao chỉ có hiệu quả khi dựa trên nội lực mạnh.',
+    q3:  'Đúng! Tư tưởng này xuất hiện từ 1920 (Đại hội Tours) và nhất quán đến cuối đời Bác — đây là chiến lược, không phải sách lược.',
     q4:  'Đúng! Từ nước cần được giúp đỡ → nước đóng góp cho hòa bình thế giới: đây là hiện thực hóa tư tưởng đoàn kết có trách nhiệm.',
     q5:  'Đúng! Bản Yêu sách 8 điểm của nhân dân An Nam (1919) — bước đi đầu tiên của Nguyễn Ái Quốc đưa Việt Nam ra thế giới.',
-    q6:  'Đúng! "Hòa nhập nhưng không hòa tan" = tham gia quốc tế một cách chủ động, sáng tạo nhưng giữ vững bản sắc dân tộc. [Trang 193]',
+    q6:  'Đúng! "Hòa nhập nhưng không hòa tan" = tham gia quốc tế một cách chủ động, sáng tạo nhưng giữ vững bản sắc dân tộc.',
     q7:  'Đúng! Việt Nam gia nhập WTO ngày 11/1/2007 — cột mốc hội nhập kinh tế quốc tế sâu rộng nhất lúc bấy giờ.',
-    q8:  'Đúng! Hồ Chí Minh không sao chép mà sáng tạo: đưa phong trào GPDT thành bộ phận của cách mạng thế giới. [Trang 183]',
-    q9:  'Đúng! "Dĩ bất biến, ứng vạn biến" — độc lập, chủ quyền là bất biến, không thể đánh đổi dù với bất kỳ lợi ích vật chất nào. [Trang 187]',
+    q8:  'Đúng! Hồ Chí Minh không sao chép mà sáng tạo: đưa phong trào GPDT thành bộ phận của cách mạng thế giới.',
+    q9:  'Đúng! "Dĩ bất biến, ứng vạn biến" — độc lập, chủ quyền là bất biến, không thể đánh đổi dù với bất kỳ lợi ích vật chất nào.',
     q10: 'Đúng! "Hòa nhập nhưng không hòa tan" — tự tin, ôn hòa bảo vệ lập trường đúng đắn; lắng nghe nhưng không bị cuốn vào sức ép bên ngoài.',
   };
 

@@ -677,13 +677,20 @@ ul { list-style: none; }
   line-height: 1;
   min-width: 2rem;
 }
-.principle-body strong {
+.principle-body > strong {
   display: block;
   font-family: var(--ff-heading);
   font-size: var(--fs-md);
   font-weight: 700;
   color: var(--clr-text);
   margin-bottom: 0.2rem;
+}
+.principle-body p strong {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  color: inherit;
 }
 .principle-body p { font-size: var(--fs-sm); color: var(--clr-text-lt); margin: 0; line-height: 1.8; }
 
