@@ -118,9 +118,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!parallaxBg) return;
     const section = parallaxBg.closest('section');
     const rect    = section.getBoundingClientRect();
-    const speed   = 0.4;
-    const offset  = rect.top * speed;
-    parallaxBg.style.transform = `translateY(${offset}px)`;
+    const windowH = window.innerHeight;
+    if (rect.bottom < 0 || rect.top > windowH) return;
+    const speed   = 0.15;
+    const offset  = (rect.top - windowH / 2) * speed;
+    parallaxBg.style.transform = `translate3d(0, ${offset}px, 0)`;
   };
   window.addEventListener('scroll', handleParallax, { passive: true });
 

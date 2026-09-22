@@ -36,7 +36,7 @@
   /* Victorian Typography */
   --ff-heading:  'Playfair Display', 'Georgia', 'Times New Roman', serif;
   --ff-body:     'Cormorant Garamond', 'Garamond', 'Georgia', serif;
-  --ff-script:   'IM Fell English', 'Georgia', serif;
+  --ff-script:   'Lora', 'Georgia', serif;
 
   --fs-xs:   0.75rem;
   --fs-sm:   0.9rem;
@@ -635,7 +635,7 @@ ul { list-style: none; }
   font-family: var(--ff-heading);
   font-size: var(--fs-2xl);
   font-weight: 700;
-  font-style: italic;
+  font-style: normal;
   color: var(--clr-text);
   margin-bottom: 1rem;
 }
@@ -699,7 +699,7 @@ ul { list-style: none; }
 .nguyentac-heading h3 {
   font-family: var(--ff-heading);
   font-size: var(--fs-2xl);
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   color: var(--clr-text);
   margin-bottom: 0.5rem;
@@ -771,7 +771,7 @@ ul { list-style: none; }
 .accordion-heading {
   font-family: var(--ff-heading);
   font-size: var(--fs-2xl);
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
   color: var(--clr-text);
   text-align: center;
@@ -830,20 +830,24 @@ ul { list-style: none; }
   position: relative;
   padding: 7rem 0;
   overflow: hidden;
+  background: #140804;
 }
 .parallax-bg {
   position: absolute;
-  inset: -60px;
+  top: -25%;
+  left: 0;
+  width: 100%;
+  height: 150%;
   background-image: url('identity_culture_section.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   filter: brightness(0.22) saturate(0.8);
+  pointer-events: none;
 }
 .identity-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(14,8,4,0.88), rgba(42,10,10,0.80));
+  background: linear-gradient(135deg, rgba(16,8,4,0.92), rgba(40,10,10,0.86));
 }
 .identity-container { position: relative; z-index: 2; text-align: center; }
 
@@ -931,27 +935,28 @@ ul { list-style: none; }
 .compare-title {
   font-family: var(--ff-heading);
   font-size: var(--fs-2xl);
-  font-style: italic;
+  font-weight: 700;
+  font-style: normal;
   color: var(--clr-parchment);
   text-align: center;
   margin-bottom: 2rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .compare-col {
   padding: 1.75rem 2rem;
-  border: 1px solid;
   border-radius: 4px;
+  backdrop-filter: blur(8px);
 }
 .compare-wrong {
-  background: rgba(140, 35, 35, 0.22);
-  border-color: rgba(180, 60, 60, 0.5);
-  box-shadow: inset 0 0 40px rgba(120,20,20,0.15);
+  background: rgba(65, 18, 18, 0.65);
+  border: 1px solid rgba(220, 80, 80, 0.45);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35), inset 0 0 35px rgba(120,20,20,0.25);
 }
 .compare-right {
-  background: rgba(35, 85, 50, 0.22);
-  border-color: rgba(60, 130, 80, 0.5);
-  box-shadow: inset 0 0 40px rgba(20,80,40,0.15);
+  background: rgba(18, 55, 30, 0.65);
+  border: 1px solid rgba(70, 180, 100, 0.45);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35), inset 0 0 35px rgba(20,80,40,0.25);
 }
 .compare-col-header {
   display: flex; align-items: center; gap: 0.75rem;
