@@ -1124,6 +1124,7 @@ ul { list-style: none; }
   color: var(--clr-crimson);
   line-height: 1.2;
   margin-bottom: 0.35rem;
+  white-space: nowrap;
 }
 .timeline-year-arabic { font-size: var(--fs-xl); font-weight: 900; font-style: normal; }
 .timeline-year.gold { color: var(--clr-brass); }
