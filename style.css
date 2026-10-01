@@ -38,13 +38,13 @@
   --ff-body:     'Cormorant Garamond', 'Garamond', 'Georgia', serif;
   --ff-script:   'Lora', 'Georgia', serif;
 
-  --fs-xs:   0.8125rem;
-  --fs-sm:   1.02rem;
-  --fs-md:   1.22rem;
-  --fs-lg:   1.38rem;
-  --fs-xl:   1.55rem;
-  --fs-2xl:  1.9rem;
-  --fs-3xl:  2.4rem;
+  --fs-xs:   0.875rem;
+  --fs-sm:   1.12rem;
+  --fs-md:   1.32rem;
+  --fs-lg:   1.5rem;
+  --fs-xl:   1.7rem;
+  --fs-2xl:  2.05rem;
+  --fs-3xl:  2.6rem;
   --fs-4xl:  3rem;
   --fs-5xl:  4rem;
 
