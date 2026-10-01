@@ -331,7 +331,7 @@ ul { list-style: none; }
 
 .hero-title {
   font-family: var(--ff-heading);
-  font-size: clamp(2.2rem, 5.5vw, var(--fs-5xl));
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
   font-weight: 700;
   font-style: italic;
   color: var(--clr-parchment);
